@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My First HTML Page</title>
+  <style>
+    body {
+      background-image: url('IMG-20250822-WA0017.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: white;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    table, th, td {
+      border: 5px solid red;
+      border-collapse: collapse;
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    th, td {
+      color: lightblue;
+    }
+
+    h1, h2, h3, h4 {
+      color: lightpink;
+    }
+
+    audio {
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: crimson;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background-color: darkred;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>❤️ ELIHLE ALONDWE GUMEDE AND PHUMUDZO C MUNANYI ❤️</h1>
+
+  <p id="loveMessage">
+    There are certain things in life that defy logic—feelings that escape the grip of reason...
+    <!-- (Shortened here for space, keep full paragraph in actual file) -->
+  </p>
+
+  <!-- JavaScript Button -->
+  <button onclick="showLoveMessage()">Click Me ❤️</button>
+
+  <h2>TABLE OF LOVERS</h2>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Nickname</th>
+      <th>Love Percentage</th>
+    </tr>
+    <tr>
+      <td>Elihle</td>
+      <td>Sthandwa sam</td>
+      <td>109%</td>
+    </tr>
+    <tr>
+      <td>Phumudzo</td>
+      <td>Dali</td>
+      <td>111%</td>
+    </tr>
+  </table>
+
+  <h2>FAVOURITE ITEMS</h2>
+
+  <h3>Audios / Music</h3>
+
+  <h4>Phumudzo's Favourite Song</h4>
+  <p>Sam Deep, Azana - BoGogo</p>
+  <audio controls>
+    <source src="Sam Deep, Azana - BoGogo (Visualizer).mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h4>Elihle's Favourite Audio</h4>
+  <p>Ovuyonke - Ubuhle Obungaka (feat. Yolophonik & Jaedon Daniels)</p>
+  <audio controls>
+    <source src="Ovuyonke - Ubuhle Obungaka (feat. Yolophonik & Jaedon Daniels).mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- JavaScript Section -->
+  <script>
+    function showLoveMessage() {
+      alert("Love like yours is rare and magical 💖. Keep it forever, Elihle & Phumudzo!");
+    }
+  </script>
+</body>
+</html>
